@@ -16,10 +16,10 @@ programa {
       limpa()
     
       escreva("-------Operadores-------\n")
-      escreva("1 - soma \n")
-      escreva("2 - subtração \n")
-      escreva("3 - multiplicação \n")
-      escreva("4 - divisão \n")
+      escreva("1 - Soma \n")
+      escreva("2 - Subtração \n")
+      escreva("3 - Multiplicação \n")
+      escreva("4 - Divisão \n")
       escreva("--------------------------\n")
       escreva("Escolha um operador: ")
       leia(op)
@@ -60,7 +60,7 @@ programa {
           escreva("Digite 1 para refazer os calculos: ")
           leia(loop)
         } 
-          }
+          limpa()}
 
   }
 }
